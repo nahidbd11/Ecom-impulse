@@ -1,0 +1,67 @@
+/* Footer Area Design  */
+.footer-top-area {
+  background-color: #222222;
+  color: #fff;
+  padding: 80px 0;
+}
+.footer-logo {
+  padding-bottom: 25px;
+}
+
+.footer-content p {
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.get-contact h2 {
+  color: #f78620;
+}
+.footer-logo {
+  padding-bottom: 25px;
+}
+
+.footer-content p {
+  margin-bottom: 20px;
+}
+
+.get-contact h2 {
+  color: #f78620;
+}
+
+.footer-link ul,
+.footer-services ul,
+.Footer-get-in-touch ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 30px;
+}
+.footer-link ul li,
+.footer-services ul li {
+  margin-bottom: 12px;
+  transition: 0.5s;
+}
+.footer-link ul li a,
+.footer-services ul li a {
+  color: #fff;
+  transition: 0.6s;
+}
+.footer-link ul li a:hover,
+.footer-services ul li a:hover {
+  padding-left: 10px;
+  color: #f78620;
+}
+.Footer-get-in-touch ul li {
+  margin-bottom: 7px;
+}
+.Footer-get-in-touch span {
+  color: gray;
+}
+.divide-footer-top {
+  border-top: 1px solid #fff;
+}
+/* Copyright design  */
+.copyright {
+  background-color: #0e3340;
+  color: #fff;
+}

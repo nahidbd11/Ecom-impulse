@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.carousel-caption a {
+  background: #000;
+  color: white;
+}
+.carousel-caption a:hover {
+  color: #fff;
+}
+
+.filter_button {
+  /* height:20px; */
+  text-align: center;
+  background: #f7941d;
+  padding: 8px 16px;
+  margin-top: 10px;
+  color: white;
+}
+
+/* Rating */
+.rating_box {
+  display: inline-flex;
+}
+
+.star-rating {
+  font-size: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.star-rating__wrap {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.star-rating__wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.star-rating__ico {
+  float: right;
+  padding-left: 2px;
+  cursor: pointer;
+  color: #f7941d;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.star-rating__ico:last-child {
+  padding-left: 0;
+}
+
+.star-rating__input {
+  display: none;
+}
+
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before {
+  content: "\f005";
+}
+
+.shop.login .form .btn {
+  margin-right: 0;
+}
+
+.btn-facebook {
+  background: #39579a;
+}
+
+.btn-facebook:hover {
+  background: #073088 !important;
+}
+
+.btn-github {
+  background: #444444;
+  color: white;
+}
+
+.btn-github:hover {
+  background: black !important;
+}
+
+.btn-google {
+  background: #ea4335;
+  color: white;
+}
+
+.btn-google:hover {
+  background: #f31a1a !important;
+}
